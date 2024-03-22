@@ -1,20 +1,20 @@
 class Impuestos {
   constructor(montoBrutoAnual, deducciones) {
-    this.montoBrutoAnual = montoBrutoAnual;
-    this.deducciones = deducciones;
+    this._montoBrutoAnual = montoBrutoAnual;
+    this._deducciones = deducciones;
   }
   get montoBrutoAnual() {
-    return this.montoBrutoAnual;
+    return this._montoBrutoAnual;
   }
   set montoBrutoAnual(nuevoMontoBrutoAnual) {
-    this.montoBrutoAnual = nuevoMontoBrutoAnual;
+    this._montoBrutoAnual = nuevoMontoBrutoAnual;
   }
 
   get deducciones() {
-    return this.deducciones;
+    return this._deducciones;
   }
   set deducciones(nuevasDeducciones) {
-    this.deducciones = nuevasDeducciones;
+    this._deducciones = nuevasDeducciones;
   }
 }
 
